@@ -7,23 +7,33 @@
     font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
 }
 
-/* Body styles */
+/* Body/general styles */
 
-body {
-
+button {
+    padding: 6px 24px;
+    background-color: #3882F6
 }
 
 /* Header/Navbar tyles */
+.container-dark {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-size: fill;
+    background-color: #1F2937;
+    padding: 20px 60px 60px 60px;
+}
 
 /* Header */
-header {
+ header {
     /* layout styles */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 32px;
-    /* visual styles */
-    background-color: #1F2937;
+    min-width: 92vw;
+    padding: 0 30px 60px 30px;
+    text-align: center;
 }
 /* Logo */
 .logo {
@@ -39,16 +49,63 @@ nav ul {
     font-size: 18px;
     /* layout styles */
     display: flex;
-    gap: 14px;
+    gap: 40px;
 }
+/* Navbar links */
 nav ul a {
     /* visual reset */
     text-decoration: none;
     color: hsl(0, 0%, 75%)
 }
+/* Navbar hover effects */
 nav ul a:hover {
     text-decoration: underline;
     text-decoration-color: white;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
+}
+
+/* Hero/Banner section */
+
+/* Hero styles */
+.hero {
+    /* layout */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    /* visual styles */
+}
+/* Hero info */
+.hero-info * {
+    margin: 0 0 6px 0;
+}
+
+.hero-info {
+    /* flex: 1; */
+}
+/* Hero H1 */
+.hero-info h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+/* Hero subtext */
+.subtext {
+    width: 400px;
+    color: hsl(0, 0%, 75%);
+}
+/* Hero image */
+
+.hero img {
+
+}
+/* Hero button */
+.hero-signup-btn {
+    /* layout styles */
+    margin-top: 12px;
+    /* visual styles */
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
 }

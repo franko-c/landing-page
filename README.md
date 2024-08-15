@@ -29,11 +29,11 @@ Demo to be added upon project completion.
 
 ## Project Structure
 
-landing-page/
+├── README.md
+├── images
 ├── index.html
-├── styles/
-   └──styles.css
-└── README.md
+└── styles
+    └── styles.css
 
 ## Contributing
 

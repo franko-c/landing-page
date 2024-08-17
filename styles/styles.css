@@ -8,6 +8,9 @@
 }
 
 /* General styles */
+body {
+    height: 100vh;
+}
 button {
     padding: 6px 24px;
     background-color: #3882F6;
@@ -18,13 +21,22 @@ button:active {
     transform: scale(1.2);
 }
 /* Container styles */
-.container-dark {
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.dark {
     background-color: #1F2937;
-    height: 420px;
+}
+.grey {
+    background-color: hsl(0, 0%, 92%);
+    padding: 80px 0;
+}
+.dark,
+.light {
+    padding: 30px 0 80px 0;
 }
 
 /* Header/Navbar styles */
@@ -34,6 +46,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 60px;
     width: 800px;
 }
 /* Logo */
@@ -77,7 +90,7 @@ nav ul a:hover {
     /* layout */
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 32px;
 }
 /* Hero info */
 .hero-info * {
@@ -106,14 +119,12 @@ nav ul a:hover {
 .info-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 420px;
+    text-align: center;
+    gap: 40px;
 }
 .info-title {
     color: hsl(200, 100%, 21%);
     text-shadow: 1px 1px lightblue;
-    margin: 10px 0;
     font-size: 26px;
 }
 .info-boxes {
@@ -121,7 +132,6 @@ nav ul a:hover {
     gap: 24px;
 }
 .box {
-    margin: 20px 0 100px 0;
     text-align: center;
 }
 .box-image {
@@ -134,4 +144,20 @@ nav ul a:hover {
     font-weight: 100;
     width: 160px;
     font-size: 14px;
+}
+
+
+/* Testimonial */
+.testimonial {
+    width: 800px;
+}
+.quote {
+    font-family: Outfit, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.signature {
+    font-weight: 900;
+    text-align: right;
 }

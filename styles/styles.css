@@ -118,7 +118,7 @@ nav ul a:hover {
 }
 .info-boxes {
     display: flex;
-    gap: 60px;
+    gap: 24px;
 }
 .box {
     margin: 20px 0 100px 0;

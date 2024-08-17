@@ -7,12 +7,14 @@
     font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
 }
 
-/* General styles */
+/* General */
 body {
     height: 100vh;
 }
+
 button {
-    padding: 6px 24px;
+    font-weight: 600;
+    padding: 8px 26px;
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
@@ -20,11 +22,11 @@ button {
 button:active {
     transform: scale(1.2);
 }
-/* Container styles */
+/* Containers */
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .dark {
@@ -36,10 +38,10 @@ button:active {
 }
 .dark,
 .light {
-    padding: 30px 0 80px 0;
+    padding: 60px 0;
 }
 
-/* Header/Navbar styles */
+/* Header/Navbar */
 /* Header */
 header {
     /* layout styles */
@@ -85,16 +87,18 @@ nav ul a:hover {
     text-underline-offset: 4px;
 }
 
-/* Hero/Banner section */
+/* Hero/Banner */
 .hero {
     /* layout */
     display: flex;
-    justify-content: center;
     gap: 32px;
 }
 /* Hero info */
-.hero-info * {
-    margin: 0 0 6px 0;
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
 }
 /* Hero H1 */
 .hero-info h1 {
@@ -109,8 +113,7 @@ nav ul a:hover {
 }
 /* Hero button */
 .hero-signup-btn {
-    /* layout styles */
-    margin-top: 12px;
+    margin-top: 8px;
     /* visual styles */
     color: #E5E7EB;
 }
@@ -123,7 +126,7 @@ nav ul a:hover {
     gap: 40px;
 }
 .info-title {
-    color: hsl(200, 100%, 21%);
+    color: hsl(200, 23%, 8%);
     text-shadow: 1px 1px lightblue;
     font-size: 26px;
 }
@@ -149,15 +152,38 @@ nav ul a:hover {
 
 /* Testimonial */
 .testimonial {
-    width: 800px;
+    width: 580px;
 }
 .quote {
     font-family: Outfit, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
-    font-size: 36px;
+    font-size: 26px;
     font-style: italic;
     font-weight: 100;
 }
 .signature {
     font-weight: 900;
     text-align: right;
+}
+
+/* Call to action */
+.cta {
+    font-size: 14px;
+    display: flex;
+    gap: 60px;
+    padding: 40px;
+    color: white;
+    background-color: hsl(240, 80%, 68%);
+}
+.cta-signup-btn {
+    color: white;
+    border: 1px solid white;
+    background-color: hsl(240, 75%, 65%);
+}
+
+footer {
+    padding: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #F9FAF8;
+    background: #1F2937;
 }

@@ -180,10 +180,15 @@ nav ul a:hover {
     background-color: hsl(240, 75%, 65%);
 }
 
+/* Footer */
 footer {
     padding: 30px;
     font-size: 12px;
     text-align: center;
     color: #F9FAF8;
     background: #1F2937;
+}
+
+.copyright {
+    color: grey;
 }

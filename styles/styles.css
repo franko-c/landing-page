@@ -19,6 +19,7 @@ ul {
 
 a {
     color: lightgrey;
+    text-decoration: none;
 }
 
 button {
@@ -30,6 +31,19 @@ button {
 }
 
 /* Hover/Fancy bits */
+button:active {
+    transform: scale(1.1);
+}
+li:active {
+    transform: scale(1.1);
+}
+li:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.logo:active {
+    transform: scale(1.1);
+}
 
 /* Containers */
 /* Without Padding */

@@ -58,6 +58,7 @@ button {
 .grey {
     background: hsl(0, 0%, 90%);
     color: rgb(30, 30, 30);
+    padding: 64px 32px;
 }
 
 /* Header */
@@ -144,12 +145,14 @@ header {
 }
 
 /* CTA */
-
 .cta {
+    padding: 64px 32px;
+}
+.cta-wrapper {
     width: 800px;
     justify-content: space-around;
     color: white;
-    background: linear-gradient(90deg, rgb(41, 30, 255) 0%, rgb(81, 81, 255) 0%, rgb(0, 149, 255) 100%);
+    background: linear-gradient(90deg, rgb(165, 161, 255) 0%, rgb(142, 142, 255) 0%, rgb(5, 126, 255) 100%);
     border-radius: 10px;
     row-gap: 24px;
     column-gap: 24px;

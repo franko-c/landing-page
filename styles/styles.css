@@ -53,6 +53,7 @@ button {
 .dark {
     color: white;
     background-color: #1F2937;
+
 }
 .grey {
     background: hsl(0, 0%, 90%);
@@ -64,7 +65,7 @@ header {
     align-items: flex-end;
     flex-wrap: wrap;
     row-gap: 12px;
-    padding: 0 30px
+    padding: 0 30px 0 30px;
 }
 .logo {
     font-size: 24px;
@@ -82,9 +83,7 @@ header {
 }
 
 /* Hero */
-.hero {
-    display: flex;
-}
+
 .hero-info {
     flex-direction: column;
     align-items: flex-start;
@@ -94,8 +93,13 @@ header {
 .subtext {
     max-width: 400px;
 }
+.hero-img {
+    align-self: center;
+}
 .hero-btn {
+    padding: 10px 32px;
     background-color: rgb(0, 149, 255);
+    border: 1px solid whitesmoke;
 }
 
 /* Info boxes */
@@ -105,7 +109,7 @@ header {
 }
 
 .box {
-    margin: 0 20px;
+    margin: 0 0 30px 0;
     max-width: 180px;
     flex: 1 1 400px;
 }
@@ -115,8 +119,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    max-width: 760px;
-    gap: 24px;;
+    max-width: 780px;
+    gap: 24px;
+    padding: 30px 0;
 }
 
 .quote {
@@ -125,11 +130,13 @@ header {
     font-style: italic;
     font-weight: lighter;
     align-self: flex-start;
+    padding: 0 12px;
 }
 
 .signature {
     font-weight: 600;
     align-self: flex-end;
+    margin-right: 26px;
 }
 
 /* CTA */
@@ -138,7 +145,7 @@ header {
     width: 800px;
     justify-content: space-around;
     color: white;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(81, 81, 255) 0%, rgb(0, 149, 255) 100%);
+    background: linear-gradient(90deg, rgb(41, 30, 255) 0%, rgb(81, 81, 255) 0%, rgb(0, 149, 255) 100%);
     border-radius: 10px;
     row-gap: 24px;
     column-gap: 24px;

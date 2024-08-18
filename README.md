@@ -19,8 +19,12 @@ Putting everything that I have learned up until now together and even pushing be
 
 Demo to be added upon project completion.
 
-## Features
+[Visit my solution, here.](https://franko-c.github.io/landing-page/)
 
+## Features
+   - Layout follows the spec, with some stylistic devations.
+   - Tested several approaches, landing on a container-based, flex approach
+   - Some responsiveness, mostly as a result of the putting everything into 'big boxes' but I did end up fine-tuning some aspects.
 
 ## Technologies Used
 
@@ -29,8 +33,20 @@ Demo to be added upon project completion.
 
 ## Project Structure
 
+.
 ├── README.md
 ├── images
+│   ├── copy-hero-image.avif
+│   ├── hero-image.avif
+│   ├── hero-img.avif
+│   └── icons
+│       ├── dial.svg
+│       ├── headphone.svg
+│       ├── mixer.svg
+│       ├── music.svg
+│       ├── pin.svg
+│       ├── power.svg
+│       └── setting.svg
 ├── index.html
 └── styles
     └── styles.css
@@ -68,8 +84,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Codeacademy](https://www.codeacademy.com/)
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [Stack Overflow](https://stackoverflow.com/)
-
-
----
-
-Feel free to customize this template to better fit your needs for each specific project.
